@@ -63,7 +63,7 @@ fun Screen() {
                     .verticalScroll(rememberScrollState())
             ) {
                 Text(
-                    "Idle Game",
+                    "Idle Game 2",
                     style = MaterialTheme.typography.h1,
                 )
                 Spacer(modifier = Modifier.height(16.dp))
