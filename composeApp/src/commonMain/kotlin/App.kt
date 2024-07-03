@@ -70,9 +70,9 @@ fun Screen() {
 
                 Button(
                     onClick = { viewModel.reset() },
-                    colors = ButtonDefaults.buttonColors(backgroundColor = Color.Cyan)
+                    colors = ButtonDefaults.buttonColors(backgroundColor = Color.Red)
                 ) {
-                    Text("Reset Game")
+                    Text("Reset Game Game")
                 }
 
                 gameState?.let { state ->
